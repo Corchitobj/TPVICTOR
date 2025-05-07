@@ -10,6 +10,8 @@ namespace Chomper.Clase_Personas
 {
     internal class Alumnos
     {
-       
+        public int numeroMatricula { get; set; }
+        List<Asistencia> asistencias;
+        List<Nota> notas;
     }
 }
